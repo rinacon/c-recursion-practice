@@ -1,1 +1,21 @@
+//the three structure ot the condition type (if) 
 
+if (condition) {
+    // كود ينفذ إذا كان الشرط صحيحاً
+}
+
+//or this structure if you need the condition and the invers 
+if (condition) {
+    // كود ينفذ إذا كان الشرط صحيحاً
+} else {
+    // كود ينفذ إذا لم تتحقق الشروط السابقة
+}
+
+//or this structure if you need a lot of conditions
+if (condition) {
+    // كود ينفذ إذا كان الشرط صحيحاً
+} else if (another_condition) {
+    // كود ينفذ إذا كان الشرط الثاني صحيحاً
+} else {
+    // كود ينفذ إذا لم تتحقق الشروط السابقة
+}
